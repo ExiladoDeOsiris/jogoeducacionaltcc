@@ -1,6 +1,8 @@
 .body {
   font-family: "Montserrat";
   color: #ffffff;
+  background-color: #7cc6fe;
+  display: inline-block;
 }
 
 * {
@@ -8,40 +10,30 @@
   color: #ffffff;
 }
 
-/* controla a dinamica de alinhamento da página */
-body {
-  background-color: #7cc6fe;
-  display: inline;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
 /* controla a dinamica de estilo do frame  */
 
 .app {
   background-color: #252d4a;
-  width: 60%;
+  width: 50%;
+  margin-left: 25%;
   min-height: 700px;
   min-width: 800px;
-  margin-left: 15%;
+  max-width: 60%;
   border-radius: 15px;
   padding: 2%;
   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
-  display: block;
+  display: inline-block;
 }
 
 /* controla a dinamica de estilo das opções de resposta */
 
 .btn.btn-primary {
   margin: 30px;
-  margin-left: 6px;
 }
 
 /* controla a dinamica de estilo da pontuação */
 
 .score-section {
-  display: flex;
   font-size: 24px;
   align-items: center;
 }
@@ -49,9 +41,7 @@ body {
 /* controla a dinamica de estilo do frame  */
 
 .question-section {
-  width: 70%;
   padding: 5%;
-  position: block;
 }
 
 /* controla a dinamica de estilo do contador de questões  */
@@ -100,7 +90,7 @@ button {
   display: block;
   padding: 1%;
   justify-content: center;
-  align-items: center;
+  display: inline-block;
   border: 5px solid #234668;
   cursor: pointer;
 }
@@ -117,4 +107,8 @@ button {
 
 .button svg {
   margin-right: 5px;
+}
+
+.container {
+  width: 75%;
 }
