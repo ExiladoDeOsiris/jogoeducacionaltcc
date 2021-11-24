@@ -1,0 +1,33 @@
+body {
+  background-color: #000929;
+}
+
+.Button {
+  color: black;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  padding-top: 60px;
+  background-color: #fefefe;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 4px solid #396eb0;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.grid {
+  align-items: center;
+  display: inline-block;
+}
+
+.col {
+}
+
+.row {
+  margin-top: 2%;
+  width: 75%;
+}
+
+.container {
+}

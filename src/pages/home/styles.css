@@ -1,0 +1,18 @@
+body {
+  display: inline;
+  align: center;
+}
+
+.container {
+  max-width: 75%;
+}
+
+.definiarmus {
+  max-width: 75%;
+  display: inline-block;
+}
+
+.grid {
+  align-content: center;
+  display: inline-block;
+}
